@@ -1,0 +1,126 @@
+body.layout {  
+  font-family: century gothic, arial, helvetica, sans-serif;  
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #1f1e1e;
+  &:visited {
+    color: #1f1e1e;
+  }
+  &:hover {
+    color: #1f1e1e;
+    background-color: none;
+  }
+}
+/* My CSS */
+
+/* Header Menu*/
+#menu {
+	position:fixed;
+	z-index: 1;
+  left:0px;
+  top:0px;
+  width:100%;
+	height: 81px;
+	background:#000000; 
+	background:-moz-linear-gradient(top, #000000 80%, #404040 100%); 
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(80%,#000000), color-stop(100%,#404040)); 
+	background:-webkit-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:-o-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:-ms-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:linear-gradient(top, #000000 80%,#404040 100%); 
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#404040',GradientType=0 ); } 
+
+img.logo {
+	float: left;
+	height: 140px;
+	width: 140px;
+	margin-right: 20px;}		
+/* End Header Menu*/
+
+/* Footer */
+
+a.redirect {
+  font-size: 12px;
+  color: #fff;
+  &:visited {
+    color: #fff;}
+  &:hover {
+    color: #fff;
+    background-color: none;}}
+
+h2.name {
+	font-weight: lighter;
+	margin-top:20px;
+	padding-left:20px;
+	font-size: 36px;
+	color:#fff;
+	line-height:2px;}
+	
+h3.name {
+	padding-left:20px;
+	font-size: 12px;
+	color:#fff;
+	line-height:2px;}
+
+p.redirect {
+	padding-left:20px;
+	margin-top: 30px;
+	color: #fff;}
+	
+/*Pop Ups*/
+
+.popups{
+	font-family: century gothic, arial, helvetica, sans-serif;}
+	
+.popups h4 {
+	font-size: 18px !important;
+	margin-bottom:0px;
+	padding: 0px 10px 0px 10px;}
+	
+.popups p {
+	font-size: 14px;
+	margin-bottom:20px;
+	letter-spacing: 2px;
+	padding: 0px 15px 0px 15px;}
+
+.popups h2 {
+	font-size: 30px;
+	font-weight:bold;
+	color:#fff;
+	margin-right: 20px;
+	float:right;}	
+
+#header_popups {
+	position:fixed;
+	height: 80px;
+	width:99%;
+	background: #000;
+	top:0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	padding-bottom:0px;
+	}	
+		
+.calc_body {
+	background:url(/assets/calc_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
+	
+.top10_body {
+	background:url(/assets/top10_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
+
+.gear_body {
+	background:url(/assets/gear_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
